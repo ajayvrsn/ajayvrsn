@@ -129,7 +129,7 @@ A developer-first Agile project management platform that unifies planning, execu
 | **Performance** | Responsive single workspace with live board updates |
 | **Security** | Standard REST API auth boundaries |
 | **Impact** | Streamlines development workflows, API documentation, and DB architecture visualization for teams |
-| **Repository** | [View Project](https://av-dev.vercel.app) · Jun–Jul 2026 |
+| **Repository** | [View Project](https://github.com/ajayvrsn/Project-Vectr) · Jun–Jul 2026 |
 
 Built to bring planning, execution, documentation, and system design into one place instead of juggling five separate tools.
 
@@ -148,7 +148,7 @@ A Gemini AI-powered code review assistant that detects issues, suggests improvem
 | **Performance** | Low-latency review generation via Gemini API |
 | **Security** | Flags security vulnerabilities and performance issues in reviewed code |
 | **Impact** | Provides intelligent refactoring suggestions, cutting manual review time |
-| **Repository** | [View Project](https://av-dev.vercel.app) · Mar–Apr 2026 |
+| **Repository** | [View Project](https://github.com/ajayvrsn/codesense-ai) · Mar–Apr 2026 |
 
 Acts as a first-pass reviewer — surfacing issues, vulnerabilities, and refactor suggestions before a human ever opens the diff.
 
@@ -167,7 +167,7 @@ An AI backend that lets users upload documents and ask natural-language question
 | **Performance** | Vector similarity search over chunked embeddings |
 | **Security** | Local LLM inference via Ollama, no external document transmission |
 | **Impact** | Full RAG pipeline: parsing, chunking, embeddings, similarity search, RESTful APIs |
-| **Repository** | [View Project](https://av-dev.vercel.app) · Dec 2025–Jan 2026 |
+| **Repository** | [View Project](https://github.com/ajayvrsn/Document-Q-A-RAG) · Dec 2025–Jan 2026 |
 
 A complete RAG implementation from raw document to grounded, context-aware answer.
 
@@ -186,7 +186,7 @@ A full CRUD web application for creating, viewing, editing, and deleting blog po
 | **Performance** | Responsive, browser-based interface |
 | **Security** | Standard backend request handling |
 | **Impact** | User-friendly full-stack CRUD reference build |
-| **Repository** | [View Project](https://av-dev.vercel.app) · Nov 2025 |
+| **Repository** | [View Project](https://github.com/ajayvrsn/blog-api-project) · Nov 2025 |
 
 </details>
 
@@ -203,7 +203,7 @@ A notes application styled like Google Keep, letting users create and manage not
 | **Performance** | Responsive across desktop and mobile |
 | **Security** | Standard backend request handling |
 | **Impact** | Simple, intuitive note-taking UX |
-| **Repository** | [View Project](https://av-dev.vercel.app) · Sept 2025 |
+| **Repository** | [View Project](https://github.com/ajayvrsn/Note-Keeper-App) · Sept 2025 |
 
 </details>
 
@@ -220,7 +220,7 @@ Forecasts future stock prices using historical data from yfinance by combining P
 | **Performance** | Hybrid ensemble improves forecast accuracy over single-model baselines |
 | **Security** | N/A — local analytical use |
 | **Impact** | Research into combining classical and deep-learning forecasting methods |
-| **Repository** | [View Project](https://av-dev.vercel.app) · May 2025 |
+| **Repository** | [View Project]([https://av-dev.vercel.app](https://github.com/ajayvrsn/Hybrid-Time-Series-Forecasting-Enhancing-Stock-market-Prediction-with-Prophet-LSTM-ARIMA)) · May 2025 |
 
 </details>
 
