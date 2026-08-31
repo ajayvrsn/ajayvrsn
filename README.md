@@ -220,7 +220,7 @@ Forecasts future stock prices using historical data from yfinance by combining P
 | **Performance** | Hybrid ensemble improves forecast accuracy over single-model baselines |
 | **Security** | N/A — local analytical use |
 | **Impact** | Research into combining classical and deep-learning forecasting methods |
-| **Repository** | [View Project]([https://av-dev.vercel.app](https://github.com/ajayvrsn/Hybrid-Time-Series-Forecasting-Enhancing-Stock-market-Prediction-with-Prophet-LSTM-ARIMA)) · May 2025 |
+| **Repository** | [View Project](https://github.com/ajayvrsn/Hybrid-Time-Series-Forecasting-Enhancing-Stock-market-Prediction-with-Prophet-LSTM-ARIMA) · May 2025 |
 
 </details>
 
@@ -274,7 +274,7 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-YOUR--HANDLE-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
+[![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
 
 </div>
 
