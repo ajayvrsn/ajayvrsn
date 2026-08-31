@@ -298,17 +298,17 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 ```yaml
 Learning:
-  - System design & architecture fundamentals
-  - Advanced DSA patterns (segment trees, Fenwick trees, DP on graphs)
-  - MLOps, cloud deployment, LLM fine-tuning
+  - System design & architecture fundamentals.
+  - Advanced DSA patterns (segment trees, Fenwick trees, DP on graphs).
+  - MLOps, cloud deployment, LLM fine-tuning.
 
 Building:
-  - RAG-based GenAI applications (LangChain + FAISS + Ollama)
-  - Full-stack products with React, Node.js, Express, PostgreSQL
+  - GenAI based applications.
+  - Software products with React, Node.js, Express, PostgreSQL.
 
 Exploring:
-  - Contributing to open-source AI tooling (MCP, AAIF)
-  - LangGraph multi-agent systems
+  - Contributing to open-source projects
+  - online developer communities
 
 Open To:
   - SDE Roles
