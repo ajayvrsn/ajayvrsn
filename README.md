@@ -15,9 +15,9 @@
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-av--dev.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://av-dev.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ajayvarsan-5B21B6?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajayvarsan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ajayvarsan-5B21B6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajayvarsanr/)
 [![Email](https://img.shields.io/badge/Email-ajayvarsan2%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajayvarsan2@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-ajayvrsn-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajayvrsn)
+[![GitHub](https://img.shields.io/badge/GitHub-ajayvrsn-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajayvrsn/)
 
 <br/>
 
