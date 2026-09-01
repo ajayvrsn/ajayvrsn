@@ -236,22 +236,6 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 ---
 
-## 🎖️ Leadership
-
-<div align="center">
-
-| Recognition | Details |
-|---|---|
-| 🏛️ **President, IETE Student Forum** | Led the forum for 2 years, organizing a wide range of student events at Dhanalakshmi Srinivasan University |
-| 🎤 **Student Coordinator — Biocircuitronics-2024** | Led a 25-member team to coordinate the university symposium |
-| 💻 **Student Coordinator — HACKD-22** | Led a 5-member team to coordinate the university hackathon |
-
-</div>
-
-<br/>
-
----
-
 ## 📜 Certifications
 
 **Oracle**
