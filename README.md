@@ -11,6 +11,7 @@
 ![Degree](https://img.shields.io/badge/B.Tech-AI%20%26%20Data%20Science-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white)
 ![CGPA](https://img.shields.io/badge/CGPA-7.62-8B5CF6?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Location-Thanjavur%2C%20Tamil%20Nadu-4C1D95?style=for-the-badge&logo=googlemaps&logoColor=white)
+[![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
 
 <br/>
 
@@ -257,18 +258,6 @@ Forecasts future stock prices using historical data from yfinance by combining P
 **Typing.com**
 
 ![Advanced Typing](https://img.shields.io/badge/Typing.com-Advanced%20Typing%2060%20WPM-6D28D9?style=flat-square)
-
-<br/>
-
----
-
-## 📊 Coding Profiles
-
-<div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
-
-</div>
 
 <br/>
 
