@@ -102,7 +102,7 @@ Open To:
 
 | Domain                         | Proficiency | Details                                                                                                                                                                    |
 | ------------------------------ | :---------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Software Development**       |    ⭐⭐⭐⭐☆    | Strong foundation in **Java, Python, C++, and JavaScript**, with experience in OOP, DSA, problem-solving, and building production-oriented applications                    |
+| **Software Development**       |    ⭐⭐⭐⭐☆    | Strong foundation in **Java, Python and JavaScript**, with experience in OOP, DSA, problem-solving, and building production-oriented applications                    |
 | **Full-Stack Development**     |    ⭐⭐⭐⭐☆    | End-to-end web development across **frontend, backend, REST APIs, databases, authentication, and application integration**                                                 |
 | **Backend Development**        |    ⭐⭐⭐⭐☆    | Building scalable backend services and APIs with **Java/Python**, handling business logic, data processing, API integration, and backend architecture                      |
 | **Frontend Development**       |    ⭐⭐⭐⭐☆    | Developing responsive and interactive web interfaces using **HTML, CSS, JavaScript, and modern frontend technologies**, with focus on usability and component-based design |
@@ -110,10 +110,6 @@ Open To:
 | **AI / GenAI Integration**     |    ⭐⭐⭐⭐☆    | **Gemini API** integration for LLM-powered code review and refactoring suggestions, with practical experience integrating AI capabilities into software products           |
 | **RAG Pipelines**              |    ⭐⭐⭐⭐☆    | **LangChain + FAISS + Ollama** pipelines for document Q&A, semantic retrieval, embeddings, and real-time context-aware responses                                           |
 | **Machine Learning**           |    ⭐⭐⭐⭐☆    | Applied ML using **Scikit-learn, TensorFlow/Keras**, and traditional ML techniques across classification, prediction, and intelligent application use cases                |
-| **Computer Vision**            |    ⭐⭐⭐⭐☆    | **ANN/CNN architectures** for handwritten character and animation recognition, with practical experience in image-based classification                                     |
-| **NLP**                        |    ⭐⭐⭐☆☆    | Sentiment classification using **TF-IDF, vectorization, and Scikit-learn**, including text preprocessing and supervised learning                                           |
-| **Time-Series Forecasting**    |    ⭐⭐⭐☆☆    | Hybrid **Prophet + LSTM + ARIMA** approach for stock-price forecasting and comparative time-series modeling                                                                |
-| **Applied AI for Products**    |    ⭐⭐⭐⭐☆    | AI-based **exam proctoring system** with real-time malpractice detection, combining computer vision and application-level engineering                                      |
 | **Cloud, Tools & Engineering** |    ⭐⭐⭐☆☆    | Familiarity with **Git/GitHub, APIs, development workflows, deployment concepts, and integrating software components into complete applications**                          |
 | **Enterprise AI Platforms**    |    ⭐⭐⭐☆☆    | **Oracle Certified AI Foundations Associate** and **SAP Certified GenAI Developer**, with exposure to enterprise-oriented AI technologies                                  |
 
