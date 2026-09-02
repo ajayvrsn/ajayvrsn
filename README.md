@@ -41,7 +41,7 @@ I like experimenting, sharing what I learn, and picking up new ideas through the
 ```yaml
 Open To:
   - Software Development Engineer (SDE) roles
-  - AI Engineer / Applied AI roles
+  - AI Engineer roles
   - Full-stack engineering opportunities
   - Open-source collaboration (AI tooling, dev infra)
 ```
