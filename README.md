@@ -10,13 +10,13 @@
 
 ![Degree](https://img.shields.io/badge/B.Tech-AI%20%26%20Data%20Science-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white)
 ![Location](https://img.shields.io/badge/Location-Tamil%20Nadu%2C%20India-4C1D95?style=for-the-badge&logo=googlemaps&logoColor=white)
-[![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
-[![Peerlist](https://img.shields.io/badge/Peerlist-ajayvrsn-6D28D9?style=for-the-badge&logo=peerlist&logoColor=white)](https://peerlist.io/ajayvrsn)
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-av--dev.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://av-dev.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajayvarsan-5B21B6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajayvarsanr/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
+[![Peerlist](https://img.shields.io/badge/Peerlist-ajayvrsn-6D28D9?style=for-the-badge&logo=peerlist&logoColor=white)](https://peerlist.io/ajayvrsn)
 [![Email](https://img.shields.io/badge/Email-ajayvarsan2%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajayvarsan2@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ajayvrsn-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajayvrsn/)
 
