@@ -9,7 +9,6 @@
 <br/>
 
 ![Degree](https://img.shields.io/badge/B.Tech-AI%20%26%20Data%20Science-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white)
-![CGPA](https://img.shields.io/badge/CGPA-7.62-8B5CF6?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Location-Tamil%20Nadu%2C%20India-4C1D95?style=for-the-badge&logo=googlemaps&logoColor=white)
 [![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
 [![Peerlist](https://img.shields.io/badge/Peerlist-ajayvrsn-6D28D9?style=for-the-badge&logo=peerlist&logoColor=white)](https://peerlist.io/ajayvrsn)
