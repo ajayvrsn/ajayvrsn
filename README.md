@@ -13,7 +13,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-av--dev.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://av-dev.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ajayvrsn.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://ajayvrsn.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajayvarsan-5B21B6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajayvarsanr/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-ajayvrsn-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ajayvrsn)
 [![Peerlist](https://img.shields.io/badge/Peerlist-ajayvrsn-6D28D9?style=for-the-badge&logo=peerlist&logoColor=white)](https://peerlist.io/ajayvrsn)
