@@ -263,8 +263,10 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ajayvrsn&show_icons=true&theme=tokyonight&title_color=A78BFA&icon_color=8B5CF6&text_color=E2E8F0&bg_color=0D1117&border_color=6D28D9&hide_border=false" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ajayvrsn&theme=tokyonight&hide_border=false&background=0D1117&stroke=6D28D9&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=ajayvrsn&show_icons=true&theme=tokyonight&title_color=A78BFA&icon_color=8B5CF6&text_color=E2E8F0&bg_color=0D1117&border_color=6D28D9" width="49%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ajayvrsn&theme=tokyonight" width="49%" />
+
 </div>
 
 <br/>
