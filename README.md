@@ -266,12 +266,12 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MahdiKordian&theme=tokyonight" height="180"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MahdiKordian&theme=tokyonight" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ajayvrsn&theme=tokyonight" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ajayvrsn&theme=tokyonight" height="180"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=MahdiKordian&theme=tokyonight&hide_border=true&background=0A192F&stroke=00B4D8&ring=00B4D8&fire=00B4D8&currStreakLabel=00B4D8" width="60%"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=ajayvrsn&theme=tokyonight&hide_border=true&background=0A192F&stroke=00B4D8&ring=00B4D8&fire=00B4D8&currStreakLabel=00B4D8" width="60%"/>
 
 <br/>
 
@@ -282,7 +282,7 @@ Forecasts future stock prices using historical data from yfinance by combining P
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MahdiKordian/MahdiKordian/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+  <img src="https://raw.githubusercontent.com/ajayvrsn/ajayvrsn/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </div>
 
 <br/>
