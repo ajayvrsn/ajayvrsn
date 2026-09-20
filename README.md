@@ -263,13 +263,35 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ajayvrsn&show_icons=true&theme=tokyonight&title_color=A78BFA&icon_color=8B5CF6&text_color=E2E8F0&bg_color=0D1117&border_color=6D28D9" width="49%" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ajayvrsn&theme=tokyonight" width="49%" />
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MahdiKordian&theme=tokyonight" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MahdiKordian&theme=tokyonight" height="180"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=MahdiKordian&theme=tokyonight&hide_border=true&background=0A192F&stroke=00B4D8&ring=00B4D8&fire=00B4D8&currStreakLabel=00B4D8" width="60%"/>
+
+<br/>
+
 
 </div>
 
+
 <br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MahdiKordian/MahdiKordian/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A192F,50:112240,100:00B4D8&height=120&section=footer&animation=fadeIn"/>
+
+</div>
 
 ---
 
