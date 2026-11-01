@@ -1,5 +1,27 @@
 <div align="center">
 
+## 📈 GitHub Analytics
+
+<div align="center">
+
+<h3><code>ajayvrsn@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top"><img src="./assets/your-photo-animated.gif" width="420" alt="Ajay Varsan's portrait assembling from colorful star-shaped pixels" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="GitHub contribution totals and streaks, refreshed daily" /></td>
+</tr>
+</table>
+
+<h3><code>ajay@github ~ $ git stats</code></h3>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ajayvrsn&theme=tokyonight" height="180" alt="GitHub repository statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ajayvrsn&theme=tokyonight" height="180" alt="Languages used in Ajay's repositories" />
+
+<br/>
+
+</div>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ajay%20Varsan%20&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Software%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
@@ -273,25 +295,9 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 ---
 
-## 📈 GitHub Analytics
+The contribution heatmap and stats card are generated from GitHub's public contribution calendar and refreshed daily by GitHub Actions. To refresh them immediately, run **Update profile art** from the repository's Actions tab. The portrait GIF is generated from `assets/your-photo.png`; replace that source photo and run `python scripts/make_portrait_gif.py assets/your-photo.png` to update the animation. To generate an optional ASCII version instead, run `python scripts/make_ascii_portrait.py assets/your-photo.png`.
 
-<div align="center">
-
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ajayvrsn&theme=tokyonight" height="180"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ajayvrsn&theme=tokyonight" height="180"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=ajayvrsn&theme=tokyonight&hide_border=true&background=0A192F&stroke=00B4D8&ring=00B4D8&fire=00B4D8&currStreakLabel=00B4D8" width="60%"/>
-
-<br/>
-
-
-</div>
-
+The optional ASCII portrait generator requires Pillow (`python -m pip install -r scripts/requirements.txt`). Only the contribution images refresh automatically.
 
 <br/>
 
