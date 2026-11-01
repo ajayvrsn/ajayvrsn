@@ -1,11 +1,5 @@
 <div align="center">
 
-## Hey There !!
-
-<div align="center">
-
-<h3><code>$ who-am-i ~ ajayvrsn</code></h3>
-
 <table>
 <tr>
 <td valign="top"><img src="./assets/your-photo-animated.gif" width="420" alt="Ajay Varsan's portrait assembling from colorful star-shaped pixels" /></td>
@@ -14,7 +8,7 @@
 </table>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Engineer;Full-Stack+Developer+(React+%2B+Node);GenAI+%26+RAG+Systems+Builder;SDE+%2F+AI+Engineer+Roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=600&lines=Somewhere+between+logic+and+chaos" alt="Typing SVG" />
 </a>
 
 ---
