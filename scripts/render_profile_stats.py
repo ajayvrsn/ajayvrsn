@@ -18,7 +18,7 @@ def load_days() -> list[dict[str, int | str]]:
     return days
 
 
-def contribution_stats(days: list[dict[str, int | str]]) -> dict[str, int]:
+def contribution_stats(days: list[dict[str, int | str]]) -> dict[str, int | str]:
     counts = {
         date.fromisoformat(str(day["date"])): int(day["count"])
         for day in days
@@ -34,20 +34,16 @@ def contribution_stats(days: list[dict[str, int | str]]) -> dict[str, int]:
         current_streak += 1
         cursor -= timedelta(days=1)
 
-    longest_streak = 0
-    running_streak = 0
-    for day in sorted(counts):
-        if counts[day] > 0:
-            running_streak += 1
-            longest_streak = max(longest_streak, running_streak)
-        else:
-            running_streak = 0
+    peak_day, peak_count = max(counts.items(), key=lambda item: item[1])
 
     return {
         "total": total,
         "active_days": active_days,
         "current_streak": current_streak,
-        "longest_streak": longest_streak,
+        "peak_day": (
+            f"{peak_count} on "
+            f"{peak_day.strftime('%b %d, %Y').replace(' 0', ' ')}"
+        ),
     }
 
 
@@ -121,19 +117,22 @@ def render_heatmap(days: list[dict[str, int | str]], total: int) -> str:
     return "".join(parts)
 
 
-def render_stats(stats: dict[str, int]) -> str:
+def render_stats(stats: dict[str, int | str]) -> str:
     rows = [
-        ("CONTRIBUTIONS (1 YEAR)", f"{stats['total']:,}"),
-        ("CURRENT STREAK", f"{stats['current_streak']} days"),
-        ("BEST STREAK (1 YEAR)", f"{stats['longest_streak']} days"),
-        ("ACTIVE DAYS (1 YEAR)", f"{stats['active_days']}"),
+        ("TOTAL CONTRIBUTIONS (ALL TIME)", f"{stats['total']:,}"),
+        (
+            "CURRENT STREAK",
+            f"{stats['current_streak']} "
+            f"day{'s' if stats['current_streak'] != 1 else ''}",
+        ),
+        ("TOP CONTRIBUTION DAY", str(stats["peak_day"])),
     ]
     parts = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="500" '
-        'viewBox="0 0 420 500" role="img" aria-labelledby="title description">',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" '
+        'viewBox="0 0 420 420" role="img" aria-labelledby="title description">',
         "<title id=\"title\">Ajay Varsan's GitHub contribution stats</title>",
-        '<desc id="description">Contribution totals, active days, and streaks.</desc>',
-        '<rect width="420" height="500" rx="12" fill="#0A192F" stroke="#1F3A5F" />',
+        '<desc id="description">All-time contributions, current streak, and top contribution day.</desc>',
+        '<rect width="420" height="420" rx="12" fill="#0A192F" stroke="#1F3A5F" />',
         '<text x="30" y="54" fill="#69F0A0" font-family="Consolas, monospace" '
         'font-size="19" font-weight="bold">ajay@github ~ $ whoami</text>',
         '<text x="30" y="91" fill="#D1D5DB" font-family="Arial, sans-serif" '
@@ -143,7 +142,7 @@ def render_stats(stats: dict[str, int]) -> str:
         '<line x1="30" y1="146" x2="390" y2="146" stroke="#1F3A5F" />',
     ]
     for index, (label, value) in enumerate(rows):
-        y = 190 + index * 66
+        y = 190 + index * 72
         delay = index * 0.16
         parts.append(
             f'<g opacity="1"><text x="30" y="{y}" fill="#8B949E" '
@@ -161,8 +160,17 @@ def render_stats(stats: dict[str, int]) -> str:
 def main() -> None:
     days = load_days()
     stats = contribution_stats(days)
+    cutoff = date.today() - timedelta(days=364)
+    heatmap_days = [
+        day
+        for day in days
+        if date.fromisoformat(str(day["date"])) >= cutoff
+    ]
+    heatmap_total = sum(int(day["count"]) for day in heatmap_days)
+    if not heatmap_days:
+        raise ValueError("No contribution days available for the last-year heatmap")
     HEATMAP_FILE.write_text(
-        render_heatmap(days, stats["total"]), encoding="utf-8"
+        render_heatmap(heatmap_days, heatmap_total), encoding="utf-8"
     )
     STATS_FILE.write_text(render_stats(stats), encoding="utf-8")
     print(f"Rendered {HEATMAP_FILE} and {STATS_FILE}")

@@ -1,7 +1,9 @@
 import json
 import re
+from datetime import date, datetime
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
@@ -52,14 +54,13 @@ class ContributionParser(HTMLParser):
             match = re.search(r"([\d,]+) contribution(?:s)? on ", tooltip)
             count = int(match.group(1).replace(",", "")) if match else 0
             result.append({**day, "count": count})
-        if len(result) < 300:
-            raise ValueError(f"Expected a full contribution calendar; found {len(result)} days")
         return sorted(result, key=lambda item: str(item["date"]))
 
 
-def main() -> None:
+def fetch_contributions(start: date, end: date) -> list[dict[str, int | str]]:
+    query = urlencode({"from": start.isoformat(), "to": end.isoformat()})
     request = Request(
-        f"https://github.com/users/{USERNAME}/contributions",
+        f"https://github.com/users/{USERNAME}/contributions?{query}",
         headers={"User-Agent": "profile-readme-contribution-calendar"},
     )
     with urlopen(request, timeout=30) as response:
@@ -67,7 +68,45 @@ def main() -> None:
 
     parser = ContributionParser()
     parser.feed(page)
-    days = parser.contributions()
+    days = [
+        day
+        for day in parser.contributions()
+        if start <= date.fromisoformat(str(day["date"])) <= end
+    ]
+    expected_days = (end - start).days + 1
+    if len(days) != expected_days:
+        raise ValueError(
+            f"GitHub returned {len(days)} of {expected_days} requested days "
+            f"for {start} through {end}"
+        )
+    return days
+
+
+def account_created_date() -> date:
+    request = Request(
+        f"https://api.github.com/users/{USERNAME}",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "profile-readme-contribution-calendar",
+        },
+    )
+    with urlopen(request, timeout=30) as response:
+        user = json.load(response)
+    created_at = user.get("created_at")
+    if not isinstance(created_at, str):
+        raise ValueError(f"GitHub did not return an account creation date for {USERNAME}")
+    return datetime.fromisoformat(created_at.replace("Z", "+00:00")).date()
+
+
+def main() -> None:
+    today = date.today()
+    created = account_created_date()
+    days = []
+    for year in range(created.year, today.year + 1):
+        start = max(date(year, 1, 1), created)
+        end = min(date(year, 12, 31), today)
+        days.extend(fetch_contributions(start, end))
+
     payload = {
         "username": USERNAME,
         "days": days,

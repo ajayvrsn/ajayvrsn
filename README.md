@@ -9,11 +9,11 @@
 <table>
 <tr>
 <td valign="top"><img src="./assets/your-photo-animated.gif" width="420" alt="Ajay Varsan's portrait assembling from colorful star-shaped pixels" /></td>
-<td valign="top"><img src="./stats.svg" width="420" alt="GitHub contribution totals and streaks, refreshed daily" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="All-time GitHub contributions, current streak, and top contribution day, refreshed daily" /></td>
 </tr>
 </table>
 
-<h3><code>ajay@github ~ $ git stats</code></h3>
+<h3><code>ajayvrsn@github ~ $ git stats</code></h3>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ajayvrsn&theme=tokyonight" height="180" alt="GitHub repository statistics" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ajayvrsn&theme=tokyonight" height="180" alt="Languages used in Ajay's repositories" />
