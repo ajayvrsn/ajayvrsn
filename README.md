@@ -1,10 +1,10 @@
 <div align="center">
 
-## 📈 GitHub Analytics
+## Hey There !!
 
 <div align="center">
 
-<h3><code>ajayvrsn@github ~ $ whoami</code></h3>
+<h3><code>$ who-am-i ~ ajayvrsn</code></h3>
 
 <table>
 <tr>
@@ -13,20 +13,25 @@
 </tr>
 </table>
 
-<h3><code>ajayvrsn@github ~ $ git stats</code></h3>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Engineer;Full-Stack+Developer+(React+%2B+Node);GenAI+%26+RAG+Systems+Builder;SDE+%2F+AI+Engineer+Roles" alt="Typing SVG" />
+</a>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ajayvrsn&theme=tokyonight" height="180" alt="GitHub repository statistics" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ajayvrsn&theme=tokyonight" height="180" alt="Languages used in Ajay's repositories" />
+---
+## 👋 About Me
+
+I'm **Ajay Varsan**, I’m a developer who likes building things, learning something new along the way, and figuring out how stuff works. Most of the time, that means writing code, breaking things, wondering why they broke, and eventually figuring it out.
+
+I like experimenting, sharing what I learn, and picking up new ideas through the things I build. Still learning, still debugging, and occasionally winning a fight against a stubborn bug.
+```yaml
+Open To:
+  - Software Development Engineer (SDE) roles
+  - AI Engineer roles
+  - Full-stack engineering opportunities
+  - Open-source collaboration (AI tooling, dev infra)
+```
 
 <br/>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ajay%20Varsan%20&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Software%20Developer&descAlignY=55&descSize=18" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Engineer;Full-Stack+Developer+(React+%2B+Node);GenAI+%26+RAG+Systems+Builder;Open+to+SDE+%2F+AI+Engineer+Roles" alt="Typing SVG" />
-</a>
 
 <br/>
 
@@ -52,22 +57,14 @@
 
 <br/>
 
----
+<h3><code>ajayvrsn@github ~ $ git stats</code></h3>
 
-## 👋 About Me
-
-I'm **Ajay Varsan R**, I’m a developer who likes building things, learning something new along the way, and figuring out how stuff works. Most of the time, that means writing code, breaking things, wondering why they broke, and eventually figuring it out.
-
-I like experimenting, sharing what I learn, and picking up new ideas through the things I build. Still learning, still debugging, and occasionally winning a fight against a stubborn bug.
-```yaml
-Open To:
-  - Software Development Engineer (SDE) roles
-  - AI Engineer roles
-  - Full-stack engineering opportunities
-  - Open-source collaboration (AI tooling, dev infra)
-```
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ajayvrsn&theme=tokyonight" height="180" alt="GitHub repository statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ajayvrsn&theme=tokyonight" height="180" alt="Languages used in Ajay's repositories" />
 
 <br/>
+
+</div>
 
 ---
 
@@ -155,7 +152,7 @@ Open To:
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <details open>
 <summary><b>🗂️ Vectr. — Agile Project Management Platform</b></summary>
@@ -291,30 +288,7 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 ![Advanced Typing](https://img.shields.io/badge/Typing.com-Advanced%20Typing%2060%20WPM-6D28D9?style=flat-square)
 
-<br/>
-
 ---
-
-The contribution heatmap and stats card are generated from GitHub's public contribution calendar and refreshed daily by GitHub Actions. To refresh them immediately, run **Update profile art** from the repository's Actions tab. The portrait GIF is generated from `assets/your-photo.png`; replace that source photo and run `python scripts/make_portrait_gif.py assets/your-photo.png` to update the animation. To generate an optional ASCII version instead, run `python scripts/make_ascii_portrait.py assets/your-photo.png`.
-
-The optional ASCII portrait generator requires Pillow (`python -m pip install -r scripts/requirements.txt`). Only the contribution images refresh automatically.
-
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ajayvrsn/ajayvrsn/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A192F,50:112240,100:00B4D8&height=120&section=footer&animation=fadeIn"/>
-
-</div>
-
----
-
 ## 🎯 Current Focus
 
 ```yaml
