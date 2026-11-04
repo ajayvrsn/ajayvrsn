@@ -12,7 +12,7 @@
 </a>
 
 ---
-## 👋 About Me
+## About Me
 
 I'm **Ajay Varsan**, I’m a developer who likes building things, learning something new along the way, and figuring out how stuff works. Most of the time, that means writing code, breaking things, wondering why they broke, and eventually figuring it out.
 
@@ -256,6 +256,12 @@ Forecasts future stock prices using historical data from yfinance by combining P
 
 </details>
 
+### Pac-Man Contribution Maze
+
+<div align="center">
+  <img src="./pacman-contribution-graph.svg" width="100%" alt="Ajay's contribution calendar transformed into a maze, with Pac-Man running and four ghosts chasing him" />
+</div>
+
 <br/>
 
 ---
@@ -289,7 +295,6 @@ Forecasts future stock prices using historical data from yfinance by combining P
 Learning:
   - System design & architecture fundamentals.
   - Advanced DSA patterns (segment trees, Fenwick trees, DP on graphs).
-  - MLOps, cloud deployment, LLM fine-tuning.
 
 Building:
   - GenAI based applications.
