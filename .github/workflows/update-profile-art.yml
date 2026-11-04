@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json contrib-heatmap.svg stats.svg
+          git add data/contributions.json contrib-heatmap.svg pacman-contribution-graph.svg stats.svg
           if git diff --cached --quiet; then
             echo "Contribution art is already up to date."
           else
