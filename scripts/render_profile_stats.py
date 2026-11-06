@@ -20,35 +20,6 @@ def load_days() -> list[dict[str, int | str]]:
     return days
 
 
-def contribution_stats(days: list[dict[str, int | str]]) -> dict[str, int | str]:
-    counts = {
-        date.fromisoformat(str(day["date"])): int(day["count"])
-        for day in days
-    }
-    total = sum(counts.values())
-    active_days = sum(count > 0 for count in counts.values())
-    today = date.today()
-    start = today if counts.get(today, 0) else today - timedelta(days=1)
-
-    current_streak = 0
-    cursor = start
-    while counts.get(cursor, 0) > 0:
-        current_streak += 1
-        cursor -= timedelta(days=1)
-
-    peak_day, peak_count = max(counts.items(), key=lambda item: item[1])
-
-    return {
-        "total": total,
-        "active_days": active_days,
-        "current_streak": current_streak,
-        "peak_day": (
-            f"{peak_count} on "
-            f"{peak_day.strftime('%b %d, %Y').replace(' 0', ' ')}"
-        ),
-    }
-
-
 def render_heatmap(
     days: list[dict[str, int | str]], total: int, pacman: bool = False
 ) -> str:
@@ -259,49 +230,41 @@ def render_heatmap(
     return "".join(parts)
 
 
-def render_stats(stats: dict[str, int | str]) -> str:
-    rows = [
-        ("TOTAL CONTRIBUTIONS (ALL TIME)", f"{stats['total']:,}"),
-        (
-            "CURRENT STREAK",
-            f"{stats['current_streak']} "
-            f"day{'s' if stats['current_streak'] != 1 else ''}",
-        ),
-        ("TOP CONTRIBUTION DAY", str(stats["peak_day"])),
-    ]
+def render_profile_card() -> str:
     parts = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" '
         'viewBox="0 0 420 420" role="img" aria-labelledby="title description">',
-        "<title id=\"title\">Ajay Varsan's GitHub contribution stats</title>",
-        '<desc id="description">All-time contributions, current streak, and top contribution day.</desc>',
+        "<title id=\"title\">About Ajay Varsan</title>",
+        '<desc id="description">AI and full-stack developer building practical software and exploring AI-powered tools.</desc>',
         '<rect width="420" height="420" rx="12" fill="#0A192F" stroke="#1F3A5F" />',
         '<text x="30" y="54" fill="#69F0A0" font-family="Consolas, monospace" '
         'font-size="19" font-weight="bold">ajay@github ~ $ whoami</text>',
         '<text x="30" y="91" fill="#D1D5DB" font-family="Arial, sans-serif" '
         'font-size="16">AI / ML Engineer | Full-stack Developer</text>',
-        '<text x="30" y="119" fill="#8B949E" font-family="Arial, sans-serif" '
-        'font-size="13">Python · React · TypeScript · Node.js</text>',
-        '<line x1="30" y1="146" x2="390" y2="146" stroke="#1F3A5F" />',
+        '<line x1="30" y1="121" x2="390" y2="121" stroke="#1F3A5F" />',
+        '<text x="30" y="157" fill="#69F0A0" font-family="Arial, sans-serif" '
+        'font-size="12" font-weight="bold">WHAT I BUILD</text>',
+        '<text x="30" y="183" fill="#D1D5DB" font-family="Arial, sans-serif" '
+        'font-size="14">Practical software, from AI-powered apps to</text>',
+        '<text x="30" y="205" fill="#D1D5DB" font-family="Arial, sans-serif" '
+        'font-size="14">full-stack products and developer tools.</text>',
+        '<text x="30" y="251" fill="#69F0A0" font-family="Arial, sans-serif" '
+        'font-size="12" font-weight="bold">CURRENT CURIOSITIES</text>',
+        '<text x="30" y="277" fill="#D1D5DB" font-family="Arial, sans-serif" '
+        'font-size="14">Generative AI · RAG · thoughtful product design</text>',
+        '<text x="30" y="323" fill="#69F0A0" font-family="Arial, sans-serif" '
+        'font-size="12" font-weight="bold">HOW I LEARN</text>',
+        '<text x="30" y="349" fill="#D1D5DB" font-family="Arial, sans-serif" '
+        'font-size="14">By experimenting, solving real problems, and</text>',
+        '<text x="30" y="371" fill="#D1D5DB" font-family="Arial, sans-serif" '
+        'font-size="14">sharing what I discover along the way.</text>',
     ]
-    for index, (label, value) in enumerate(rows):
-        y = 190 + index * 72
-        delay = index * 0.16
-        parts.append(
-            f'<g opacity="1"><text x="30" y="{y}" fill="#8B949E" '
-            f'font-family="Arial, sans-serif" font-size="12">{html.escape(label)}</text>'
-            f'<text x="30" y="{y + 27}" fill="#D1D5DB" '
-            f'font-family="Consolas, monospace" font-size="20" font-weight="bold">'
-            f'{html.escape(value)}</text>'
-            f'<animate attributeName="opacity" values="0;1" begin="{delay:.2f}s" '
-            'dur="0.25s" fill="freeze" /></g>'
-        )
     parts.append("</svg>")
     return "".join(parts)
 
 
 def main() -> None:
     days = load_days()
-    stats = contribution_stats(days)
     cutoff = date.today() - timedelta(days=364)
     heatmap_days = [
         day
@@ -317,7 +280,7 @@ def main() -> None:
     PACMAN_FILE.write_text(
         render_heatmap(heatmap_days, heatmap_total, pacman=True), encoding="utf-8"
     )
-    STATS_FILE.write_text(render_stats(stats), encoding="utf-8")
+    STATS_FILE.write_text(render_profile_card(), encoding="utf-8")
     print(f"Rendered {HEATMAP_FILE}, {PACMAN_FILE}, and {STATS_FILE}")
 
 

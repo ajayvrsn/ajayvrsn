@@ -1,14 +1,44 @@
 import json
 import re
+import sys
+import time
 from datetime import date, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlencode
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
 USERNAME = "ajayvrsn"
 OUTPUT = Path("data/contributions.json")
+MAX_REQUEST_ATTEMPTS = 4
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+
+
+def read_url(request: Request) -> bytes:
+    for attempt in range(1, MAX_REQUEST_ATTEMPTS + 1):
+        try:
+            with urlopen(request, timeout=30) as response:
+                return response.read()
+        except HTTPError as error:
+            if error.code not in RETRYABLE_HTTP_CODES or attempt == MAX_REQUEST_ATTEMPTS:
+                raise
+            reason = f"HTTP {error.code} {error.reason}"
+        except URLError as error:
+            if attempt == MAX_REQUEST_ATTEMPTS:
+                raise
+            reason = str(error.reason)
+
+        delay = 2 ** (attempt - 1)
+        print(
+            f"GitHub request failed ({reason}); retrying in {delay}s "
+            f"(attempt {attempt + 1}/{MAX_REQUEST_ATTEMPTS}).",
+            file=sys.stderr,
+        )
+        time.sleep(delay)
+
+    raise RuntimeError("GitHub request retries exhausted")
 
 
 class ContributionParser(HTMLParser):
@@ -63,8 +93,7 @@ def fetch_contributions(start: date, end: date) -> list[dict[str, int | str]]:
         f"https://github.com/users/{USERNAME}/contributions?{query}",
         headers={"User-Agent": "profile-readme-contribution-calendar"},
     )
-    with urlopen(request, timeout=30) as response:
-        page = response.read().decode("utf-8")
+    page = read_url(request).decode("utf-8")
 
     parser = ContributionParser()
     parser.feed(page)
@@ -90,8 +119,7 @@ def account_created_date() -> date:
             "User-Agent": "profile-readme-contribution-calendar",
         },
     )
-    with urlopen(request, timeout=30) as response:
-        user = json.load(response)
+    user = json.loads(read_url(request))
     created_at = user.get("created_at")
     if not isinstance(created_at, str):
         raise ValueError(f"GitHub did not return an account creation date for {USERNAME}")

@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td valign="top"><img src="./assets/your-photo-animated.gif" width="420" alt="Ajay Varsan's portrait assembling from colorful star-shaped pixels" /></td>
-<td valign="top"><img src="./stats.svg" width="420" alt="All-time GitHub contributions, current streak, and top contribution day, refreshed daily" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="About Ajay: AI/ML and full-stack developer building practical software and exploring AI-powered tools" /></td>
 </tr>
 </table>
 
@@ -14,9 +14,9 @@
 ---
 ## About Me
 
-I'm **Ajay Varsan**, I’m a developer who likes building things, learning something new along the way, and figuring out how stuff works. Most of the time, that means writing code, breaking things, wondering why they broke, and eventually figuring it out.
+I'm **Ajay Varsan**, an AI/ML and full-stack developer who enjoys turning ideas into useful software. I build across AI-powered applications, developer tools, and full-stack products, and I like understanding how things work from the inside out.
 
-I like experimenting, sharing what I learn, and picking up new ideas through the things I build. Still learning, still debugging, and occasionally winning a fight against a stubborn bug.
+I learn by experimenting, solving real problems, and iterating when things break. Lately, I've been exploring generative AI, retrieval-augmented generation, and ways to make software more useful and approachable. I also enjoy sharing what I learn and collaborating on open-source projects.
 ```yaml
 Open To:
   - Software Development Engineer (SDE) roles
